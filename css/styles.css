@@ -1,3 +1,13 @@
+:root {
+  --primary-text-color: #212121;
+  --secondery-text-color: #757575;
+  --text-logo-one: #2196f3;
+  --text-logo-two: #000000;
+  --text-logo-three:#FFFFFF;
+  --link-active: #2196f3;
+  --text-on-dark-background:#FFFFFF;
+  ba
+}
 body {
   color: blueviolet;
 }
