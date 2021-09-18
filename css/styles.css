@@ -3,11 +3,217 @@
   --secondery-text-color: #757575;
   --text-logo-one: #2196f3;
   --text-logo-two: #000000;
-  --text-logo-three:#FFFFFF;
+  --text-logo-three: #ffffff;
   --link-active: #2196f3;
-  --text-on-dark-background:#FFFFFF;
-  ba
+  --text-on-dark-background: #ffffff;
+  --primary-background: #e5e5e5;
+  --dark-background: #2f303a;
+  --grey-background: #f5f4fa;
+  --header-background: #ffffff;
+  --button-background: #f5f4fa;
 }
 body {
-  color: blueviolet;
+  background-color: var(--primary-background);
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*---- Header-----*/
+.logo-header {
+  color: var(--text-logo-two);
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-span {
+  color: var(--text-logo-one);
+}
+
+.header {
+  background-color: var(--header-background);
+}
+
+.header-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: var(--link-active);
+}
+
+.header-nav .link.cureent {
+  color: var(--link-active);
+}
+
+.header-contakt .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contakt .link:hover,
+.header-contakt .link:focus {
+  color: var(--link-active);
+}
+
+/*---- Hero-----*/
+.hero {
+  background-color: var(--dark-background);
+}
+
+.hero-title {
+  color: var(--text-on-dark-background);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--text-on-dark-background);
+  background: #2196f3;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+
+/*---- benefits-----*/
+.benefits-feature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/*-- occupation  чем мЫ занимаемся-*/
+.occupation-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/*-- Team-*/
+.team {
+  background-color: var(--grey-background);
+}
+
+.team-card {
+  background-color: var(--header-background);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-text {
+  color: var(--secondery-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/*-- Footer-*/
+.footer {
+  background-color: var(--dark-background);
+}
+
+.logo-footer {
+  color: var(--text-logo-three);
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.address {
+  color: var(--text-on-dark-background);
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  font-style: inherit;
+}
+
+.address-contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-contacts .link:hover,
+.address-contacts .link:focus {
+  color: var(--link-active);
+}
+
+/*-- Portfolio-*/
+.portfolio-button {
+  color: var(--primary-text-color);
+  background-color: var(--button-background);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--text-on-dark-background);
+  background-color: var(--link-active);
+}
+
+.portfolio-projects {
+  background-color: var(--header-background);
+}
+
+.projects-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-text {
+  color: var(--secondery-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
 }
